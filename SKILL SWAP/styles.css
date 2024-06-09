@@ -1,0 +1,126 @@
+body {
+    background-color: #f8f9fa;
+}
+
+header h1 {
+    font-family: 'Arial', sans-serif;
+    color: #007bff;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: #007bff !important;
+}
+
+.nav-link:hover {
+    color: #0056b3 !important;
+}
+.row{
+    text-align: center;
+    padding:50px 20px;
+    background-color: rgb(244, 203, 245);
+    margin:20px;
+    border-radius:10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.row h1{
+    font-size:2.5em;
+    margin-bottom:20px;
+}
+.row p{
+    font-size:1.2em;
+    margin-bottom:30px;
+}
+.row .btn{
+    background-color:bisque;
+    color:white;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.row.btn:hover{
+    background-color:bisque;
+    transform:scale(1.05);
+}
+/*LOGIN PAGE CSS*/
+body {
+    font-family: Arial, sans-serif;
+
+        background: linear-gradient(to right, #1d1a39, #451952, #662549, #ae445a, #f39f5a, #e8bcb9);
+        height: 100vh;
+        margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+}
+
+.left-panel {
+    background-color: #803a61;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.right-panel {
+    padding: 40px;
+}
+
+.right-panel h2 {
+    margin-top: 0;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #824969;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.sign-in-google {
+    background-color: white;
+    color: #8b39e0;
+    border: 1px solid #8b39e0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.forgot-password {
+    color: #8b39e0;
+    text-decoration: none;
+    float: right;
+}
+
+.signup-link {
+    color: #8b39e0;
+    text-decoration: none;
+}
